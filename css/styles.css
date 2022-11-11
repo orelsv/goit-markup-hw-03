@@ -62,6 +62,7 @@ p {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  outline: 1px solid #ECECEC;
   
   
 }
@@ -189,11 +190,11 @@ p {
 
 
 .about {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-list {
   display: flex;
-  margin-top: 93px;
-  margin-bottom: 93px;
   gap: 30px;
 }
 .about-list-li {
@@ -219,6 +220,7 @@ p {
 /*-------------what---------*/
 
 .what {
+  padding-bottom: 94px;
 }
 .what-h2 {
   font-size: 36px;
@@ -230,7 +232,6 @@ p {
 .what-ul {
   display: flex;
   margin-top: 50px;
-  margin-bottom: 94px;
   gap: 30px;
 }
 .what-item {
@@ -243,10 +244,12 @@ p {
 
 .team {
   background: var(--background-team);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-h2 {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -255,9 +258,8 @@ p {
 }
 .team-ul {
   display: flex;
-  padding-bottom: 94px;
   gap: 30px;
-  box-shadow: ;
+  
   
 }
 .team-item {
@@ -267,9 +269,16 @@ p {
 }
 .team-img {
 }
+
+.team-h3-p{
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
   padding-bottom: 10px;
-  padding-top: 30px;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -279,7 +288,6 @@ p {
 .team-position {
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 30px;
   letter-spacing: 0.03em;
   color: var(--grey);
 }
@@ -288,6 +296,8 @@ p {
 
 .footer {
   background: var(--dark-blue);
+  padding-top: 60px;
+  padding-bottom: 60px;
 
 }
 
@@ -303,13 +313,17 @@ p {
   color: var(--white);
 }
 .footer-pad{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
+}
+.footer-ul{
+  display: flex;
+
 }
 
 .footer-adress {
   margin-top: 20px;
   margin-bottom: 9px;
+  
 }
 .footer-maps {
   
@@ -359,12 +373,28 @@ p {
 /*--------------Filter---------*/
 
 .portfolio-h1 {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filter-h2 {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .filter-ul {
@@ -408,13 +438,17 @@ p {
 .porfolio-ul {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   gap: 30px;
   
-    
 }
+    
+.portfolio-h3-p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
 .porfolio-item {
-  margin-top: 30px;
   outline: 1px solid #EEEEEE;
   
   
@@ -424,8 +458,7 @@ p {
 }
 
 .portfolio-h3 {
-  padding-left: 24px;
-  padding-top: 20px;
+  padding-left: 24px; 
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -434,7 +467,6 @@ p {
 
 .portfolio-p {
   padding-left: 24px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1,875;
   letter-spacing: 0.03em;
