@@ -98,10 +98,13 @@ p {
 
 }
 
-.nav-item {
-  
+.nav-li {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.nav-item {
+ 
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -114,10 +117,12 @@ p {
   color: var(--blue);
 }
 
-
+.nav-ul{
+  margin-right: auto;
+}
 
 .header-email {
-  margin-left: 314px;
+  
   margin-right: 50px;
   text-decoration: none;
   font-weight: 500;
@@ -320,13 +325,16 @@ p {
 
 }
 
+.footer-li{
+  margin-bottom: 9px;
+}
+
 .footer-adress {
   margin-top: 20px;
-  margin-bottom: 9px;
   
 }
+
 .footer-maps {
-  
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -400,7 +408,7 @@ p {
 .filter-ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   gap: 8px;
 }
 
@@ -445,6 +453,8 @@ p {
 .portfolio-h3-p{
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;  
   
 }
 
@@ -458,7 +468,7 @@ p {
 }
 
 .portfolio-h3 {
-  padding-left: 24px; 
+  
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -466,9 +476,9 @@ p {
 }
 
 .portfolio-p {
-  padding-left: 24px;
+ 
   font-size: 16px;
-  line-height: 1,875;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--grey);
 }
